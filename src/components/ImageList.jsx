@@ -1,8 +1,8 @@
 import ImageShow from "/ImageShow"
 import "./imagelist.css"
 
-const imagelist = ({Image}) => {
-    const renderImage = Image.map((imagew) => {
+const ImageList = ({Image}) => {
+    const renderImage = Image.map((Image) => {
     return <ImageShow key={Image.id} Image={Image} />
     })
     return (

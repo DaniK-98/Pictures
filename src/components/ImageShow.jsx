@@ -1,7 +1,7 @@
 const ImageShow = ({Image}) => {
     return (
         <div> 
-            <img src={Image.urls.small} alt = {image.alt_description} />
+            <img src={Image.urls.small} alt = {Image.alt_description} />
 
         </div>
     )
