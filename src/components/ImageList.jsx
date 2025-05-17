@@ -1,15 +1,15 @@
 import ImageShow from "./ImageShow"
-import "./imagelist.css"
+import './ImageList.css'
 
-const ImageList = ({Image}) => {
-    const renderImage = Image.map((Image) => {
-    return <ImageShow key={Image.id} Image={Image} />
-    })
-    return (
-        <div className="image-list">
-            {renderImage}
-        </div>
-    )
+const ImageList = ({images}) => {
+  const renderImage = images.map((image) => {
+    return <ImageShow key={image.id} image={image} />
+  })
+  return (
+    <div className="image-list">
+      {renderImage}
+    </div>
+  )
 }
 
 export default ImageList
