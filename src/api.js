@@ -1,5 +1,5 @@
 import axios from "axios";
-//HOLAAAAAAA GAYYY
+//SOLUCINADO
 const searchImages = async(term) => {
     const url = 'https://api.unsplash.com/search/photos/?client_id=cSrQBFUpKF1kRSil19pADOwY7SupvdJ3QU6VN7JJ5LI'
 
